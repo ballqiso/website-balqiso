@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding — Belajar Bersama Balqis</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #08080d;
+      color: #f7f3ff;
+      font-family: Georgia, serif;
+      line-height: 1.7;
+    }
+    header {
+      padding: 54px 20px 42px;
+      text-align: center;
+      background: radial-gradient(circle at top, #38204d 0, #15101e 48%, #08080d 100%);
+      border-bottom: 1px solid #49305c;
+    }
+    .eyebrow {
+      color: #e8a9ff;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font: 700 11px Arial, sans-serif;
+    }
+    h1 {
+      margin: 12px 0;
+      font-size: clamp(32px, 7vw, 52px);
+      font-style: italic;
+      line-height: 1.15;
+    }
+    header p { color: #d8c9e2; margin: 0 auto; max-width: 540px; }
+    main { width: min(900px, calc(100% - 32px)); margin: 34px auto 60px; }
+    .section-title {
+      margin: 42px 0 18px;
+      font-size: clamp(25px, 5vw, 34px);
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #15121c;
+      border: 1px solid #352640;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 10px 28px #0005;
+    }
+    .card h3 { margin: 0 0 8px; color: #e8b7ff; font-size: 21px; }
+    .card p { margin: 0; color: #e4dce9; }
+    .tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 5px 11px;
+      border-radius: 99px;
+      background: #34213f;
+      color: #f0caff;
+      font: 700 11px Arial, sans-serif;
+      letter-spacing: .5px;
+    }
+    .memory {
+      margin-top: 16px;
+      padding: 22px;
+      background: #21172b;
+      border: 1px solid #68457b;
+      border-radius: 18px;
+    }
+    .memory p { margin: 7px 0; }
+    strong { color: #f1bfff; }
+    .social {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    .social a {
+      color: #fff;
+      text-decoration: none;
+      background: #4a2d5b;
+      border: 1px solid #9163a8;
+      border-radius: 999px;
+      padding: 10px 17px;
+      font: 700 13px Arial, sans-serif;
+    }
+    .social a:hover { background: #684080; }
+    footer {
+      text-align: center;
+      padding: 28px 18px 38px;
+      color: #bcaec7;
+      border-top: 1px solid #302438;
+      font-size: 13px;
+    }
+    footer p { margin: 5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Belajar coding bersama</div>
+    <h1>Materi HTML, CSS,<br>Python &amp; JavaScript</h1>
+    <p>Catatan sederhana untuk mengenal bahasa pemrograman dan cara membuat website.</p>
+  </header>
+
+  <main>
+    <h2 class="section-title">Materi HTML &amp; CSS</h2>
+    <div class="grid">
+      <article class="card">
+        <span class="tag">HTML</span>
+        <h3>HyperText Markup Language</h3>
+        <p>HTML digunakan untuk membuat struktur dan isi website, seperti judul, paragraf, gambar, dan tombol.</p>
+      </article>
+      <article class="card">
+        <span class="tag">CSS</span>
+        <h3>Cascading Style Sheets</h3>
+        <p>CSS digunakan untuk mengatur tampilan website, seperti warna, ukuran, font, posisi, dan desain.</p>
+      </article>
+    </div>
+
+    <div class="memory">
+      <h3>Penjelasan singkat</h3>
+      <p><strong>HTML</strong> = isi dan struktur website.</p>
+      <p><strong>CSS</strong> = tampilan website.</p>
+    </div>
+
+    <h2 class="section-title">Materi Python &amp; JavaScript</h2>
+    <div class="grid">
+      <article class="card">
+        <span class="tag">PYTHON</span>
+        <h3>Python</h3>
+        <p>Python tidak memiliki kepanjangan resmi. Python adalah bahasa pemrograman untuk membuat berbagai program, mengolah data, membuat AI, dan aplikasi.</p>
+      </article>
+      <article class="card">
+        <span class="tag">JAVASCRIPT</span>
+        <h3>JavaScript</h3>
+        <p>JavaScript juga tidak memiliki kepanjangan resmi. JavaScript membuat website menjadi interaktif, misalnya tombol yang bisa melakukan sesuatu, animasi, dan game sederhana.</p>
+      </article>
+    </div>
+
+    <div class="memory">
+      <h3>Cara gampang mengingat</h3>
+      <p><strong>HTML</strong> → struktur website</p>
+      <p><strong>CSS</strong> → tampilan website</p>
+      <p><strong>JavaScript</strong> → interaksi website</p>
+      <p><strong>Python</strong> → membuat berbagai program dan aplikasi</p>
+    </div>
+
+    <h2 class="section-title">Sosial Media</h2>
+    <p style="text-align:center;color:#d8c9e2">Yuk ikuti sosial media ku!</p>
+    <div class="social">
+      <a href="https://www.instagram.com/aqis_uwaw/" target="_blank" rel="noopener">Instagram · @aqis_uwaw</a>
+      <a href="https://www.tiktok.com/@plenger_g1" target="_blank" rel="noopener">TikTok · @plenger_g1</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Terima kasih telah membaca! Semoga ilmunya bermanfaat 💗</p>
+    <p><strong>Website &amp; code by Balqis</strong></p>
+    <p>Mohon dihargai dan maaf jika ada kesalahan dari code ini.</p>
+  </footer>
+</body>
+</html>
